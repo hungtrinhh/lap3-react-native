@@ -14,7 +14,6 @@ const Home = (props) => {
     setEmail(Email);
   };
 
-
   return (
     <View style={styles.container}>
       <Button

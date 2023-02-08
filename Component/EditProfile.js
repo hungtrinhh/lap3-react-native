@@ -5,7 +5,6 @@ const EditProfile = (props) => {
   console.log(props);
   const { route, navigation } = props;
   const { Update } = route.params;
-  console.log(age);
 
   const Save = () => {
     Update(name, age, Address, Phonenumber, Email);
@@ -15,6 +14,7 @@ const EditProfile = (props) => {
       Address: Address,
       Phonenumber: Phonenumber,
       Email: Email,
+      Update: Update,
     });
   };
   const [name, setname] = useState(route.params.name);
