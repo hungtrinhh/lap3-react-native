@@ -16,6 +16,10 @@ const Home = (props) => {
 
   return (
     <View style={styles.container}>
+
+    
+
+
       <Button
         title="Thông tin cá nhân"
         onPress={() =>

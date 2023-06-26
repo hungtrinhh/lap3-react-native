@@ -2,8 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 const Screen2 = (props) => {
-  let name = props.route.params.name;
-  let mssv = props.route.params.mssv;
+  const { name, mssv } = props.route.params;
   return (
     <View style={styles.container}>
       <Text style={styles.text}>{name}</Text>
